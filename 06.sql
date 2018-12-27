@@ -1,4 +1,4 @@
 CREATE TABLE continents (
-    id bigint primary key,
+    id serial primary key,
     name character varying(32)
 );
